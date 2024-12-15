@@ -1,7 +1,3 @@
-document.getElementById('email').addEventListener('click',function(){
-    let email = document.getElementById('email').dataset['email'];
-    location.href='mailto:'+email.replace('[anfora]','@');
-});
 //Get the button
 let mybutton = document.getElementById("btn-back-to-top");
 
